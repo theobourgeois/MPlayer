@@ -1,0 +1,32 @@
+.volume-slider{
+    -webkit-appearance: none;
+    border-radius: 8px;
+    background-color: var(--accent);
+    height: 8px;
+    cursor: pointer;
+    display: inline-block;     
+    z-index: 1;     
+    width: 80%;
+    outline: none;
+}
+
+.volume-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 15px;
+    width: 15px;
+    background:var(--accent);
+    transform: scale(0) translateY(2px);
+
+    transition: 100ms;
+    margin-top: -5px;
+    border-radius: 50%;
+    border: 3px solid rgb(130, 209, 255);
+    filter: drop-shadow(0 0 0.2rem rgb(0, 0, 0, 0.1));
+   
+    
+ }
+
+.volume-slider-container:hover .volume-slider::-webkit-slider-thumb{
+    transform: scale(1.2) translateY(2px);
+
+ }

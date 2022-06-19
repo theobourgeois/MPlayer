@@ -1,0 +1,66 @@
+.queue-container {
+    width: 300px;
+    height: 100vh;
+    left: 100vw;
+    transition: transform 500ms;
+    position: fixed;
+}
+
+.queue-elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 5em;
+    margin-left: 2em;
+}
+
+.queue-title-clear-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.queue-title {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.clear-queue-button {
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5em;
+    height: 1.5em;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+}
+
+.queue-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    border-radius: 8px;
+    margin: 1em;
+}
+
+.queue-card h3 {
+    font-weight: 400;
+}
+
+.queue-bin {
+    height: 15px;
+    width: 20px;
+    cursor: pointer;
+    filter: saturate(0);
+}
+
+.queue-cover {
+    width: 40px;
+    height: 40px;
+}
