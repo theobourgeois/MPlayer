@@ -6,5 +6,5 @@ Basic music playing app
 2. run npm install 
 3. run npm start
 
-![alt text](file:///Users/theobourgeois/Desktop/Screen%20Shot%202022-06-19%20at%209.09.25%20PM.png)
+![alt text](![image](https://user-images.githubusercontent.com/88730475/174505719-0b437519-b071-4764-9d7c-cbf0e5e132d8.png))
 
