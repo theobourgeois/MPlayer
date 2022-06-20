@@ -10,7 +10,7 @@ Basic music playing app
 
 ## Main Features
 * Native wav & mp3 file uploading (mp3 is recommended)  
-* Multiple file uploading
+* Upload multiple files at once
 * Playlists
 * Dark/Light mode
 * Queue
