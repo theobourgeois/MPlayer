@@ -1,5 +1,5 @@
 # MPlayer
-Basic music playing app
+Basic music playing app made in React js
 
 ## How to setup
 1. clone repository
